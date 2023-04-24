@@ -1,0 +1,45 @@
+.main-page {
+    height: 500px;
+    background-color: rgb(157, 150, 150);
+}
+
+.main-page-title {
+    display: flex;
+    flex-direction: column;
+    margin-left: 380px;
+    padding-top: 100px;
+}
+
+.main-page-title h1 {
+    letter-spacing: 18px;
+    font-size: 2.5rem;
+}
+
+.main-page-title p {
+    font-size: 1.5rem;
+}
+
+.pointers {
+    display: flex;
+    justify-content: space-between;
+}
+
+.pointers * {
+    width: 30px;
+    height: 30px;
+    border: 1px solid white;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.pointers *:hover {
+    background-color: white;
+}
+
+.down {
+    margin-top: 150px;
+    margin-left: 600px;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
